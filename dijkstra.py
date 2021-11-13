@@ -20,9 +20,9 @@ class Graph():
 # ***********************************************#
         
     def dijkstra(self, src):
-# ********* Insert your code here ************** #
- 
-# ***********************************************#
+        print("Vertex  Distance from Source")
+        for node in range(self.V):
+            print(node, " ", dist[node])
 
 def main():
     g = Graph(5)
