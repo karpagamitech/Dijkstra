@@ -7,9 +7,9 @@ class Graph():
 # ***********************************************#
                     
     def printSolution(self, dist):
-# ********* Insert your code here ************** #
- 
-# ***********************************************#
+        print("Vertex  Distance from Source")
+        for node in range(self.V):
+            print(node, " ", dist[node])
 
 
     
@@ -20,9 +20,9 @@ class Graph():
 # ***********************************************#
         
     def dijkstra(self, src):
-        print("Vertex  Distance from Source")
-        for node in range(self.V):
-            print(node, " ", dist[node])
+# ********* Insert your code here ************** #
+ 
+# ***********************************************#
 
 def main():
     g = Graph(5)
